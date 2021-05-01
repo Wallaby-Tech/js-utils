@@ -1,5 +1,6 @@
 const constants = require('./constants')
-const constants = require('./gen_values')
+const gen_value = require('./gen_values')
+const time = require('./time')
 
 module.exports = {
     constants,
